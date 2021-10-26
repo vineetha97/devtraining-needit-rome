@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="10" type="collection">
         <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
@@ -11,6 +12,7 @@
                 <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your_choice"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources1" sequence="0" value="hr1"/>
@@ -20,6 +22,7 @@
                 <element inactive_on_update="false" label="Legal1" sequence="4" value="legal1"/>
                 <element inactive_on_update="false" label="Legal2" sequence="5" value="legal2"/>
                 <element inactive_on_update="false" label="Your Department Choice1" sequence="6" value="your_choice1"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
             </choice>
         </element>
     </element>
