@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_capability_definition_base">
+    <ml_capability_definition_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="NLU">b4ddf73453c73300d1dcddeeff7b1288</capability>
+        <current_solution_version>1</current_solution_version>
+        <dataset_language>en</dataset_language>
+        <fields/>
+        <filter/>
+        <request_source>api</request_source>
+        <solution_label>ml_x_714317_x_58872_needit_global_29dc3ca907fb3010fa18f2ae7c1ed044</solution_label>
+        <solution_name>ml_x_714317_x_58872_needit_global_29dc3ca907fb3010fa18f2ae7c1ed044</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"authoringModel":{"intents":[{"name":"Number of incidents","samples":[{"utterance":"Thank you so much"},{"utterance":"Connecting to live agent, please hold."},{"utterance":"Hello, How can I help you"},{"utterance":"I don\u0027t understand, Can you try in different way?"},{"utterance":"Great!"}],"entities":[]},{"name":"Small talk","samples":[{"utterance":"Can Ihelp you with anything?"},{"utterance":"Have a great day"},{"utterance":"Good to see you"},{"utterance":"Weather is great today"},{"utterance":"hello, I am good"}],"entities":[]}],"schemaVersion":"NY-1","vocabulary":[],"modelPurpose":"search","entities":[],"confidenceThreshold":"0.6","lookupSources":[],"name":"ml_x_714317_x_58872_needit_global_29dc3ca907fb3010fa18f2ae7c1ed044","language":"en","version":"rome.0"},"label":"ml_x_714317_x_58872_needit_global_29dc3ca907fb3010fa18f2ae7c1ed044","name":"ml_x_714317_x_58872_needit_global_29dc3ca907fb3010fa18f2ae7c1ed044","nluTrainingMode":"IntentClassifier","g_bn":"Rome","g_jv":"20.1.1.2","g_bt":"glide-rome-06-23-2021__patch1-hotfix1-09-15-2021","trainingMode":"sync"}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ml_capability_definition_base</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-13 05:44:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9dc3ca907fb3010fa18f2ae7c1ed045</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>ml_x_714317_x_58872_needit_global_29dc3ca907fb3010fa18f2ae7c1ed044</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>ml_capability_definition_base_a9dc3ca907fb3010fa18f2ae7c1ed045</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-13 05:48:23</sys_updated_on>
+        <table/>
+        <training_frequency>run_once</training_frequency>
+        <word_vector_corpus/>
+    </ml_capability_definition_base>
+</record_update>

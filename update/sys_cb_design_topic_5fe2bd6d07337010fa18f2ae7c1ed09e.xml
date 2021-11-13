@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="View Open NeedIt Records">d3e2bd6d07337010fa18f2ae7c1ed09c</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"86c2967f46ab4c9aadad0a0e3a90824a","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"86c2967f46ab4c9aadad0a0e3a90824a"}],"goals":[{"name":"primary","trigger_id":"86c2967f46ab4c9aadad0a0e3a90824a","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"9acd6686af764a8a8fd766c9c37cce4d","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"321cd8d1de6c482aa56fc625c201190f","name":"End"},{"type":"InputPrompt","variable_id":"ddba1db5ccff421da11234958a253746","message":{"type":"String","mode":"string","value":"{{vaInputs.view_open_needit_requests}}"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"skippable":{"type":"Applicability","mode":"script","value":"false"},"id":"c6bbb58352a64b57a4f7d70c09dcb900","name":"View Open needit requests","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"formatType":"Text","validationScript":""}],"edges":[{"type":"Edge","source_node_id":"9acd6686af764a8a8fd766c9c37cce4d","target_node_id":"c6bbb58352a64b57a4f7d70c09dcb900","id":"1322fac17b4049e5ab55d5568aa54f0c"},{"type":"Edge","source_node_id":"c6bbb58352a64b57a4f7d70c09dcb900","target_node_id":"321cd8d1de6c482aa56fc625c201190f","id":"aeb334a53a6d4989a2adef6a640e66c1"}],"id":"primary"}],"script_variables":[{"type":"String","name":"LiveAgent_application","value":{"type":"String","mode":"string"},"list":false,"id":"9d3d9c432c6a4456abdde9deb3273913","formatType":"text","secure":false,"sensitive":false}],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"String","name":"view_open_needit_requests","list":false,"id":"ddba1db5ccff421da11234958a253746","formatType":"Text","validationScript":"","secure":false,"sensitive":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"6ead8e780f603200cd674f8ce1050ed1","domain":"global","topic_type":"STANDARD","channels":[],"id":"f052b96d07337010fa18f2ae7c1ed09e","name":"_PRVW__1fe2bd6d7b3370102dd9e2c937aec998","key_phrases":["View Open NeedIt Records","NeedIt Request","need something","needit","requests"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>f052b96d07337010fa18f2ae7c1ed09e</design_topic_id>
+        <name>_PRVW__1fe2bd6d7b3370102dd9e2c937aec998</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-13 09:40:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5fe2bd6d07337010fa18f2ae7c1ed09e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_design_topic_5fe2bd6d07337010fa18f2ae7c1ed09e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-13 09:40:23</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
